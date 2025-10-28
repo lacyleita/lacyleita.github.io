@@ -13,13 +13,11 @@ h2{
     text-align: center;
 }
 
-.projectGallery {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    text-align:center;
-    margin-top: 20px;
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: nowrap; /* don’t wrap to next line */
 }
 
 .projectGallery a{
@@ -28,9 +26,12 @@ h2{
     font-weight: bold;
 }
 
-.project{
-    width: 300px;
+.project {
+  flex: 1 1 300px; /* grow/shrink, base width 300px */
+  max-width: 300px; /* ensures it doesn’t get too big */
+  text-align: center;
 }
+
 
 .project img{
     width: 100%;
