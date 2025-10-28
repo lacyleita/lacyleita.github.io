@@ -1,8 +1,8 @@
 body{
     background: #ffe6f7;
-;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h1{
     color: #ff66cf;
     text-align: center;
@@ -10,8 +10,35 @@ h1{
 }
 h2{
     color: #ff66cf;
+    text-align: center;
 }
-<!-- 
+
+.projectGallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.projectGallery a{
+    text-decoration: none;
+    color: #ff66cf;
+    font-weight: bold;
+}
+.projectGallery img{
+    width: 300px;
+    height: auto;
+    border: 2px solid #ff66cf;
+    border-radius: 8px;
+    transition: transform 0.2 ease;
+}
+
+.projectGallery img:hover{
+    transforom: scale(1.05);
+}
+/*-- 
 project img{
     width: 300px;
     height: 300px;
@@ -19,4 +46,4 @@ project img{
     border: 2px soldrgb(126, 14, 201);
     display: block;
     margin: auto;
-}  -->
+}  */
