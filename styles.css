@@ -39,6 +39,12 @@ h2{
     transform: scale(1.05);
 }
 
+.label {
+  font-weight: bold;
+  color: #ff66cf;
+  margin-top: 10px;
+}
+
 .comment {
   font-size: 0.9em;
   color: #555;
