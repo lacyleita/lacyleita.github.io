@@ -13,47 +13,54 @@ h2{
     text-align: left;
 }
 
-.project-gallery {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: nowrap; /* don’t wrap to next line */
+.project-section {
+  margin-top:40px;
 }
 
-.projectGallery a{
-    text-decoration: none;
-    color: #ff66cf;
-    font-weight: bold;
+.project-row{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
 }
 
-.project {
-  flex: 1 1 300px; /* grow/shrink, base width 300px */
-  max-width: 300px; /* ensures it doesn’t get too big */
+.project-box {
+  width: 300px;
   text-align: center;
 }
 
 
-.project img{
+.project-box a{
+    text-decoration: none;
+    color:#ff66cf;
+    font-weight: bold;
+}
+
+.project-box img{
     width: 100%;
     height: auto;
-    border: 2px soldid #ff66cf;
-    border-radius: 8px;
+    border: 2px solid #ff66cf;
+    border-radius: 8x;
     transition: transform 0.2s ease;
 }
 
-.project img:hover{
+.project-box img:hover{
     transform: scale(1.05);
 }
 
-.label{
-    font-weight: bold;
-    color: #ff66cf;
-    margin-top: 10px;
+.project-pox p{
+    color: #555;
+    font-size: 0.95em;
+    margin-top:8px;
 }
 
-.comment{
-    font-size: 0.9em;
-    color: #555;
-    width: 80%;
-    margin: 5px auto 0;
+.skills span a{
+    font-weight: bold;
+    color: #ff66cf;
+    text-decoration: none;
+}
+
+.skills span a:hover {
+    text-decoration: underline;
 }
