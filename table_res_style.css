@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    color: #333;
+    color: #ffbfde;
     background-color: #f9f9f9;
 }
 table {
@@ -13,7 +13,7 @@ td {
     padding: 8px;
 }
 h1, h2 {
-    color: #2c3e50;
+    color:#ff66cf;
     margin-bottom: 5px;
 }
 hr {
